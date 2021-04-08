@@ -27,7 +27,7 @@ export async function startBirdBoxFromContainer(options: BirdBoxTestCaseOptions)
       },
       configuration: {
         playgroundUrl: `http://${host}:${port}`,
-        apiUrl: `http://${host}:${port}`,
+        apiUrl: `http://${host}:${port}/cubejs-api/v1`,
       },
     };
   }
