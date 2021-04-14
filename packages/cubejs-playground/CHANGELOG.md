@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.26.96](https://github.com/cube-js/cube.js/compare/v0.26.95...v0.26.96) (2021-04-14)
+
+
+### Bug Fixes
+
+* **@cubejs-client/playground:** basePath, vue dashboard selection ([#2555](https://github.com/cube-js/cube.js/issues/2555)) ([5723786](https://github.com/cube-js/cube.js/commit/5723786056b1a42ead4554f817210ea7881c0ddb))
+
+
+
+
+
+## [0.26.95](https://github.com/cube-js/cube.js/compare/v0.26.94...v0.26.95) (2021-04-13)
+
+
+### Bug Fixes
+
+* **playground:** Test connection in Connection Wizard ([715fa1c](https://github.com/cube-js/cube.js/commit/715fa1c0ab6667017e12851cbd97e97cf6807d60))
+
+
+
+
+
+## [0.26.94](https://github.com/cube-js/cube.js/compare/v0.26.93...v0.26.94) (2021-04-13)
+
+**Note:** Version bump only for package @cubejs-client/playground
+
+
+
+
+
+## [0.26.93](https://github.com/cube-js/cube.js/compare/v0.26.92...v0.26.93) (2021-04-12)
+
+**Note:** Version bump only for package @cubejs-client/playground
+
+
+
+
+
 ## [0.26.90](https://github.com/cube-js/cube.js/compare/v0.26.89...v0.26.90) (2021-04-11)
 
 **Note:** Version bump only for package @cubejs-client/playground

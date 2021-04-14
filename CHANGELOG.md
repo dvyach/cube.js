@@ -3,6 +3,73 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.26.97](https://github.com/cube-js/cube.js/compare/v0.26.96...v0.26.97) (2021-04-14)
+
+**Note:** Version bump only for package cubejs
+
+
+
+
+
+## [0.26.96](https://github.com/cube-js/cube.js/compare/v0.26.95...v0.26.96) (2021-04-14)
+
+
+### Bug Fixes
+
+* **@cubejs-client/playground:** basePath, vue dashboard selection ([#2555](https://github.com/cube-js/cube.js/issues/2555)) ([5723786](https://github.com/cube-js/cube.js/commit/5723786056b1a42ead4554f817210ea7881c0ddb))
+
+
+
+
+
+## [0.26.95](https://github.com/cube-js/cube.js/compare/v0.26.94...v0.26.95) (2021-04-13)
+
+
+### Bug Fixes
+
+* **playground:** Test connection in Connection Wizard ([715fa1c](https://github.com/cube-js/cube.js/commit/715fa1c0ab6667017e12851cbd97e97cf6807d60))
+* post-install compatibility with yarn ([4641e81](https://github.com/cube-js/cube.js/commit/4641e814909a807ecf49e838e6dc471db6920392))
+
+
+
+
+
+## [0.26.94](https://github.com/cube-js/cube.js/compare/v0.26.93...v0.26.94) (2021-04-13)
+
+
+### Bug Fixes
+
+* **@cubejs-client/core:** WebSocket response check ([7af1b45](https://github.com/cube-js/cube.js/commit/7af1b458a9f2d7390e80805241d108b895d5c2cc))
+
+
+
+
+
+## [0.26.93](https://github.com/cube-js/cube.js/compare/v0.26.92...v0.26.93) (2021-04-12)
+
+
+### Bug Fixes
+
+* **@cubejs-client/vue:** make query reactive ([#2539](https://github.com/cube-js/cube.js/issues/2539)) ([9bce6ba](https://github.com/cube-js/cube.js/commit/9bce6ba964d71f0cba0e4d4e4e21a973309d77d4))
+* **docker:** Lock yarn, workaround for PATH & post-installers ([907befa](https://github.com/cube-js/cube.js/commit/907befa4ae96cdba7f9d5ac167a74af9fb1fff18))
+
+
+
+
+
+## [0.26.92](https://github.com/cube-js/cube.js/compare/v0.26.91...v0.26.92) (2021-04-12)
+
+
+### Bug Fixes
+
+* **cubestore:** temporarily disable streaming in top-k ([ff629d5](https://github.com/cube-js/cube.js/commit/ff629d51790bb54f719b38448acfbd7fb1eba67c))
+* Do not refresh cube keys during pre-aggregations warmup ([f331d53](https://github.com/cube-js/cube.js/commit/f331d53dbfd3feef0a5fa71ffc89c72cef3ecbb0))
+* post installers compatiblity with Windows [#2520](https://github.com/cube-js/cube.js/issues/2520) ([7e9bd7c](https://github.com/cube-js/cube.js/commit/7e9bd7c86df1032d53e752654fe4a446951480bb))
+
+
+
+
+
 ## [0.26.91](https://github.com/cube-js/cube.js/compare/v0.26.90...v0.26.91) (2021-04-11)
 
 

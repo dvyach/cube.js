@@ -13,6 +13,8 @@ ENV NODE_ENV production
 WORKDIR /cube
 COPY . .
 
+RUN yarn policies set-version v1.22.5
+
 # There is a problem with release process.
 # We are doing version bump without updating lock files for the docker package.
 #RUN yarn install --frozen-lockfile

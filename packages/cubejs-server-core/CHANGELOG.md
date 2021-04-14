@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.26.97](https://github.com/cube-js/cube.js/compare/v0.26.96...v0.26.97) (2021-04-14)
+
+**Note:** Version bump only for package @cubejs-backend/server-core
+
+
+
+
+
+## [0.26.95](https://github.com/cube-js/cube.js/compare/v0.26.94...v0.26.95) (2021-04-13)
+
+
+### Bug Fixes
+
+* **playground:** Test connection in Connection Wizard ([715fa1c](https://github.com/cube-js/cube.js/commit/715fa1c0ab6667017e12851cbd97e97cf6807d60))
+
+
+
+
+
+## [0.26.92](https://github.com/cube-js/cube.js/compare/v0.26.91...v0.26.92) (2021-04-12)
+
+
+### Bug Fixes
+
+* Do not refresh cube keys during pre-aggregations warmup ([f331d53](https://github.com/cube-js/cube.js/commit/f331d53dbfd3feef0a5fa71ffc89c72cef3ecbb0))
+
+
+
+
+
 ## [0.26.91](https://github.com/cube-js/cube.js/compare/v0.26.90...v0.26.91) (2021-04-11)
 
 **Note:** Version bump only for package @cubejs-backend/server-core
