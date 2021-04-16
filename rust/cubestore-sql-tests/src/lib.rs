@@ -24,6 +24,7 @@ pub trait SqlClient: Send + Sync {
 
 pub fn run_sql_tests(
     prefix: &str,
+    extra_args: Vec<String>,
     runner: impl Fn(/*test_name*/ &str, &TestFn) + RefUnwindSafe + Send + Sync + Clone + 'static,
 ) {
     let tests = sql_tests()
@@ -43,7 +44,11 @@ pub fn run_sql_tests(
         })
         .collect();
 
-    test::test_main(&env::args().collect::<Vec<String>>(), tests, None);
+    test::test_main(
+        &env::args().chain(extra_args).collect::<Vec<String>>(),
+        tests,
+        None,
+    );
 }
 
 #[async_trait]
